@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+.total {
+    display: flex;
+    justify-content: center;
+}
+form{
+    /*max-width: 960px;*/
+    /*padding-left: 200px;*/
+
+}
+
+input::placeholder{
+    color: #aaa;
+}
+.input_size{
+    width: 415px;
+    height: 48px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+}
+.input_size2{
+    width: 555px;
+    height: 48px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+}
+.input_size3{
+    width:475px;
+    height: 48px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.input_size4{
+    width:475px;
+    height: 48px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.btn_juso{
+    width: 130px;
+    height: 42px;
+    background-color: #2379e3;
+    color: #ffffff;
+    border: 0;
+}
+.btn_juso:hover{
+    background-color: #166dd9;
+}
+.button_{
+    display: flex;
+    justify-content: space-evenly;
+}
+.but{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    background-color: #2379e3;
+    color: #ffffff;
+}
+.but:hover{
+    background-color: #166dd9;
+}
+textarea{
+    overflow: auto;
+    height: 300px;
+    border: solid 1px #ddd;
+}

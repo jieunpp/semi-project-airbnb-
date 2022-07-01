@@ -1,0 +1,22 @@
+#mainbox{
+    width:500px;
+    margin:0px auto;
+}
+#mainbox table tr td{
+    padding: 10px;
+}
+#button{
+    padding-left: 130px;
+}
+.but{
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    background-color: #2379e3;
+    color: #ffffff;
+}
+.but:hover{
+    background-color: #166dd9;
+}

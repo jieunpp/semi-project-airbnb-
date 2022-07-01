@@ -1,0 +1,92 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+    margin: 0;
+}
+*{
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans KR';
+}
+
+.mainbox {
+    /*background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    background: #71a2fc;
+}
+
+.room{
+    width: 500px;
+    height: 300px;
+}
+h4{
+    text-align: center;
+}
+.addr{
+    width: 20px;
+    height: 20px;
+}
+th{
+    background-color: #f5f5f5;
+}
+#ti_fon{
+    width: 87px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.81;
+    letter-spacing: -0.48px;
+    text-align: center;
+    color: #111;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+.size_a{
+    width: 200px;
+}
+
+.info {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border-collapse:collapse;
+}
+.price{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse:collapse;
+}
+.total_price{
+    text-align: center;
+}
+.btn-m{
+    border: 0;
+    transition: all .4s;
+    width: 100px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #2379e3;
+    color: #ffffff;
+
+}
+.btn-m:hover {
+    background-color: #166dd9;
+}
+.space{
+    height: 30px;
+}

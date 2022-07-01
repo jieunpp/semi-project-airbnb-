@@ -1,0 +1,252 @@
+@charset "EUC-KR";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	font-family: "Noto Sans KR", sans-serif !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'twaysky';*/
+	font-family: 'Noto Sans KR';
+}
+.main_content {
+	width: 100%;
+	height: 100vh;
+	background: url("../img/bg-visual-1@3x.png");
+	background-repeat: round;
+}
+
+.main_content .header {
+	width: 90%;
+	height: 80px;
+	margin: 0 auto; /*끝에 마진*/
+	display: flex;
+	justify-content: space-between; /*서로가좌우끝으로값이출력되게*/
+	align-items: center; /*중앙정렬*/
+}
+
+.main_content .header h1 a { /*네이밍*/
+	text-decoration: none;
+	color: white;
+	font-family: 'twaysky';
+}
+
+.main_content .nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.main_content .nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'twaysky';
+}
+
+.main_content .nav ul li a:hover {
+	color: #111111;
+}
+
+.main_content .main_title {
+	position: absolute;
+	left: 50%;
+	top: 77%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.searchArea {
+	width: 1120px;
+	/*width: 1000px;*/
+	height: 65px;
+	background: #fff;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.searchArea form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	color: black;
+}
+
+/*.main_content .main_title h2 {*/
+/*	font-size: 60px;*/
+/*	margin-bottom: 20px;*/
+/*}*/
+
+/*.main_content .main_title p {*/
+/*	font-size: 22px;*/
+/*}*/
+
+.searchArea>input {
+	border: none;
+	width: 200px;
+	/*width: 400px;*/
+	height: 60px;
+	background: rgba(0, 0, 0, 0.0);
+	color: black;
+	padding-left: 10px;
+	margin: 2px 2px 0px 0px;
+}
+
+.main_input{
+	font-size: 22px;
+	font-weight: bold;
+	color: #111;
+}
+
+/*.searchArea>form>.person {*/
+/*	width: 100px;*/
+/*}*/
+
+.searchTitle{
+	margin: 0 34px 0 0;
+	font-size: 22px;
+	text-align: left;
+	color: #111;
+}
+
+.main_content .main_title .searchArea button {
+	width: 178px;
+	height: 65px;
+	background: #111111;
+	color:  white;
+	padding: 21px 52px 22px;
+	box-shadow: 1px 0px 0 0 #ddd;
+	outline: none;
+	cursor: pointer;
+	transition: all .4s; /*입체적으로 효과보여주기 위해 0.4초 딜레이보여준다*/
+}
+
+.main_content .main_title .searchArea button:hover {
+	color: #646464;
+}
+.semi_content{
+	display: flex;
+	flex-direction: column;
+}
+.list_content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-around;
+	align-items: center;
+}
+
+.list_title {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.list_title h2{
+	font-size: 34px;
+}
+
+.product_list {
+	/*margin: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*margin-left: 100px;*/
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	/*justify-content: space-evenly;*/
+	list-style: none;
+	margin-top: 30px;
+	/*margin-right: 30px;*/
+}
+
+.product_list li {
+	float: left;
+	margin: 0 45px 45px 0;
+	position: relative;
+	/*width: 374px;*/
+	/*height: 501px;*/
+	width: 374px;
+	height: 364px;
+	border: 1px solid #d9d9d9;
+}
+
+.product_list li:hover {
+	border-color: #333;
+}
+
+.product_list dl {
+	padding: 374px 0px 0px 0;
+}
+
+/*.product_list dt {*/
+/*	padding: 11px 10px 14px;*/
+/*	border-top: 1px solid #f0f0f0;*/
+/*	text-align: center;*/
+/*	font-size: 16px;*/
+/*	color: #1a1a1a;*/
+/*}*/
+
+/*.product_list dt a {*/
+/*	font-size: 16px;*/
+/*	color: #1a1a1a;*/
+/*}*/
+
+.product_list .img {
+	position: absolute;
+	left: 0;
+	top: -7px;
+	margin-left: -2px;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+.product_list .sub_title {
+	padding: 0 0 0 10px;
+	font-size: 21px;
+	color: #1a1a1a;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main_text2 {
+	/*margin-top: 650px;*/
+	/*width: 100%;*/
+	margin-top: 100px;
+	height: 44vh;
+	background-image: url("../img/bg-visual-2@3x.png");
+	background-repeat: round;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+
+.host_register { /*밑줄 없애기*/
+	text-decoration: none;
+}
+
+.house_btn{
+	width: 200px;
+	height: 52px;
+	margin: 68px 97px 0;
+	padding: 17px 50px 18px 52px;
+	border-radius: 5px;
+	background-color: #2379e3;
+	color: #fff;
+}
+.house_btn:hover{
+	background-color: #166dd9;
+}
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:focus { text-decoration: none;}
+a:hover, a:active { text-decoration: none; }
+
+
+

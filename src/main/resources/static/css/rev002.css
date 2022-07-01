@@ -1,0 +1,27 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+    margin: 0;
+}
+
+.main_aaa{
+    margin-top: 100px;
+    font-family: 'Noto Sans KR';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: #2379e3
+}
+.rev_bt{
+    width: 300px;
+    height: 35px;
+    background-color: #2379e3;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}

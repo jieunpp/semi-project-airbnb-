@@ -1,0 +1,77 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    font-family: "Noto Sans KR", sans-serif !important;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+#mainbox{
+    width: 600px;
+    display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+table td{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.room_input_s{
+    width: 80px;
+    height: 30px;
+}
+
+.room_input{
+    width: 200px;
+    height: 30px;
+}
+
+.regi_btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #919caa;
+    color: #ffffff;
+    border: 0;
+    margin-left: 20px;
+}
+
+.regi_btn:hover{
+    background-color: #85919f;
+}
+
+#btn_area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #919caa;
+    color: #ffffff;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: #85919f;
+}
+
+.conf_btn{
+    width: 220px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #2379e3;
+    color: #ffffff;
+    border: 0;
+    margin-top: 25px;
+}
+
+.conf_btn:hover{
+    background-color: #166dd9;
+}
