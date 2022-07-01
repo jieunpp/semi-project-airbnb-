@@ -1,0 +1,51 @@
+server:
+  address: localhost
+  port: 8785
+  servlet:
+    session:
+      timeout: 30m
+# 세션아웃 30분
+
+#jsp파일설정
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    static-path-pattern: /resources/**
+
+#크롬바로실행
+  devtools:
+    remote:
+      restart:
+        enabled: true
+
+#db정보
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://10.10.20.237:5432/edu
+    username:
+    password:
+
+#이미지 파일
+  servlet:
+    multipart:
+      maxFileSize: 10MB
+      maxRequestSize: 20MB
+
+#  profiles:
+#    include:
+#      - db
+#      - images
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: geepark82@gmail.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
